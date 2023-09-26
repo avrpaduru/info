@@ -1,5 +1,5 @@
 Cloning project with git:
-1) Login to your git hub account
+1) If you are using Intellij: Login to your git hub account (this will be used later when you want to commit or pull changes)
 2) Add git tool to your machine
 3) For cloning with ssh:
   i) Generate a new ssh key: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
