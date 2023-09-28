@@ -1,2 +1,2 @@
 1. [Versioning/AboutCodeVersioning.md](https://github.com/avrpaduru/info/blob/e0607de8bbd70ab6af460ebb1bf48e2bc70fa138/Versioning/AboutCodeVersioning.md)
-2. [Versioning/TypesOfVersionControls.md](https://github.com/avrpaduru/info/blob/e0607de8bbd70ab6af460ebb1bf48e2bc70fa138/Versioning/AboutCodeVersioning.md)
+2. [Versioning/TypesOfVersionControls.md](https://github.com/avrpaduru/info/blob/fdf999b7690783560fa57d140061c8020ce23a97/Versioning/TypesOfVersionControls.md)
