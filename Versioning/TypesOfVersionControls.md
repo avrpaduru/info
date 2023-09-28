@@ -21,3 +21,7 @@ A lock-based version control system uses file locking to manage concurrent acces
 **4.Optimistic:**
 
 In an optimistic version control system, every user has their own private workspace. When they want to share their changes with the rest of the team, they submit a request to the server. The server then looks at all the changes and determines which ones can be safely merged together.
+
+**<span style="color:Gray">References:**</span>
+1. https://stackoverflow.com/questions/7249871/what-is-a-build-tool
+2. https://about.gitlab.com/topics/version-control/
