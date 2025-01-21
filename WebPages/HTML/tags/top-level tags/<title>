@@ -1,0 +1,15 @@
+The <title> tag defines the title of the HTML document. This title is displayed:
+
+1) In the Browser Tab:
+It appears as the name of the tab in the user's web browser.
+2) In Search Engine Results:
+Search engines like Google display this title in search results, making it an essential component for SEO.
+3) For Accessibility:
+Screen readers often read the title to users, helping them understand the context of the page.
+Why is it necessary?
+1) User Experience: Helps users understand the purpose of a page when they have multiple tabs open.
+2) SEO Benefits: A descriptive and concise title improves search engine rankings and click-through rates.
+3) Required by Standards: While technically optional, omitting it can result in generic or incorrect titles being displayed.
+
+NOTE: This tag is meant to be included in the main document that integrates the subpages. The subpage content is usually designed to be inserted into the <body> of the main page dynamically or via server-side inclusion.
+Omit Top-Level Tags: Do not include <!DOCTYPE>, <html>, <head>, or <meta> tags in subpages unless the subpage is meant to be a standalone document.

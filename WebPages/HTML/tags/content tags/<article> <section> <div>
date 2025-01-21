@@ -1,0 +1,31 @@
+read: semantic equivalent vs dynamic content file before understanding the difference
+
+<div>
+What is it? A general-purpose container that doesn't have any specific meaning or semantics.
+When to use it? When grouping content for layout or styling purposes, but the group has no particular meaning.
+Example:
+<div class="feature">
+    <h2>Feature Title</h2>
+    <p>Details about this feature.</p>
+</div>
+Why <div>? It's useful when you just need a container, such as for CSS styling or JavaScript targeting.
+2. <section>
+What is it? A section of content that is part of a larger document. It typically groups content under a common heading.
+When to use it? To logically divide a document into meaningful sections, like "About Us," "Features," or "Contact."
+Example:
+<section id="features">
+    <h2>Our Features</h2>
+    <p>Explore our amazing features that enhance your experience.</p>
+</section>
+Why <section>? It groups related content together and adds semantic meaning, making the document easier to navigate for search engines and accessibility tools.
+3. <article>
+What is it? A self-contained, independent piece of content that could stand alone, like a blog post or news article.
+When to use it? For content that is complete and reusable outside of the document.
+Example:
+<article>
+    <h2>Blog Post Title</h2>
+    <p>This is a standalone blog post that can be shared individually.</p>
+</article>
+Why <article>? Each <article> is a distinct, complete piece that can be distributed independently.
+
+Key Differences between these can be found in WebPages/images:<article><section><div>.png

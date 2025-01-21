@@ -1,0 +1,31 @@
+<span> Tag:
+The <span> tag is an inline container used to group or style parts of text without introducing any additional semantic meaning. It doesn’t affect the layout or structure of the content unless styled with CSS. It’s often used when you want to apply a specific style or behavior to a small part of text without affecting the flow of the rest of the content.
+
+Usage:
+The <span> tag is often used for styling text or marking a portion of content to apply styles, such as changing the color, font, or other CSS properties.
+<span>This is a piece of sample text.</span>
+Example:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Text Example</title>
+    <style>
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Using the <span>Tag</h1>
+    <p>This is a <span class="highlight">sample text</span> with some special styling.</p>
+</body>
+</html>
+In the above example, the text "sample text" is enclosed within a <span> tag and styled to appear red and bold, using the CSS class highlight. The <span> tag itself doesn't introduce any visual change, but it allows us to apply styling to the enclosed text.
+
+Key Points:
+Inline Element: The <span> tag does not create a new block of content and doesn’t break the flow of the text; it’s used within other inline elements.
+No Semantic Meaning: It has no meaning on its own, other than to group or style text.
+Common Use Cases: Changing the color, font, or other styles of specific words or sections of text.
+Summary:
+Use <span> to style or apply specific behavior to a part of a text line without affecting the layout or adding any additional structure to the content.

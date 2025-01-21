@@ -1,0 +1,16 @@
+<meta> tag provides metadata about an HTML document. Metadata is information that is not directly displayed on the page but is used by browsers, search engines, and other tools to better understand the content and behavior of the document.
+
+Why We Need <meta> Tags
+1) Character Encoding (<meta charset="UTF-8">):
+    a) Ensures the browser correctly interprets the characters in the document, allowing it to display text in various languages and special symbols.
+    b) UTF-8 is the most widely used encoding standard, supporting almost all characters and symbols.
+2) Viewport Settings (<meta name="viewport" content="width=device-width, initial-scale=1.0">):
+    a) Helps make web pages responsive, ensuring they look good on devices of different screen sizes.
+   b) Commonly used for mobile-friendly designs.
+3) Search Engine Optimization (SEO) (<meta name="description" content="...">):
+    a) Provides a brief summary of the page's content, which search engines like Google use in search results.
+4) Browser Behavior Control:
+    a) Tags like <meta http-equiv="X-UA-Compatible" content="IE=edge"> tell Internet Explorer to use the latest rendering engine.
+
+NOTE: This tag is meant to be included in the main document that integrates the subpages. The subpage content is usually designed to be inserted into the <body> of the main page dynamically or via server-side inclusion.
+Omit Top-Level Tags: Do not include <!DOCTYPE>, <html>, <head>, or <meta> tags in subpages unless the subpage is meant to be a standalone document.

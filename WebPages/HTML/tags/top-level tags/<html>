@@ -1,0 +1,12 @@
+<html lang="en"> tag is the opening tag of the HTML document and includes the lang attribute, which specifies the primary language of the document's content.
+Purpose of the <html> Tag
+1) Structural Root: It is the root element of an HTML document, encompassing all content within the page.
+2) Defines Document Type: It ensures that the browser recognizes the document as an HTML file.
+Purpose of the lang Attribute
+Language Identification: The lang="en" attribute specifies that the content of the page is in English. This is crucial for:
+1) Accessibility: Screen readers use this to pronounce words correctly based on the language.
+2) SEO: Search engines consider the language to provide appropriate results to users based on their preferences.
+3) Translation Tools: It helps automatic translators understand the original language of the page.
+
+NOTE: This tag is meant to be included in the main document that integrates the subpages. The subpage content is usually designed to be inserted into the <body> of the main page dynamically or via server-side inclusion.
+Omit Top-Level Tags: Do not include <!DOCTYPE>, <html>, <head>, or <meta> tags in subpages unless the subpage is meant to be a standalone document.

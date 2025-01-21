@@ -1,0 +1,12 @@
+<!DOCTYPE html> tag is a declaration that tells the web browser which version of HTML the document is using. It ensures that the browser renders the page in "standards mode" rather than "quirks mode."
+Why We Add It:
+1) Standards Mode Activation
+2) Modern HTML Compatibility
+3) Cross-Browser Consistency
+NOTE: Quirks Mode is a browser rendering mode that replicates the behavior of older web browsers, specifically those that existed before modern web standards were established. It was introduced to maintain backward compatibility with outdated or poorly written web pages.
+Quirks Mode is triggered when:
+The <!DOCTYPE> declaration is missing.
+An older or incorrect <!DOCTYPE> is used (e.g., HTML 3.2 or 4.0 without proper formatting).
+
+NOTE: This tag is meant to be included in the main document that integrates the subpages. The subpage content is usually designed to be inserted into the <body> of the main page dynamically or via server-side inclusion.
+Omit Top-Level Tags: Do not include <!DOCTYPE>, <html>, <head>, or <meta> tags in subpages unless the subpage is meant to be a standalone document.

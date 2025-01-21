@@ -1,0 +1,39 @@
+<body> tag represents the main content area of an HTML document that is visible to the user. Everything inside the <body> tag is rendered on the web page, including text, images, videos, links, and other HTML elements.
+
+Why do we need it?
+Content Display:
+
+It contains all the visible content and elements that users interact with on the web page.
+Separation of Structure and Metadata:
+
+The <body> tag separates the visible and interactive parts of a webpage from metadata and links to resources in the <head> tag.
+Script and Styling Context:
+
+Scripts (JavaScript) and styles (CSS) often target elements within the <body> for manipulation or styling.
+In summary, the <body> tag is essential for organizing and rendering the core content of a webpage that users interact with.
+
+The need for the <body> tag in subpages depends on how the subpages are designed and used.
+If the subpage is a full, independent HTML document, it requires a <body> tag. This is because it needs to follow the proper HTML structure, including <html>, <head>, and <body> tags.
+Example of a standalone subpage:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Subpage Content</h2>
+    <p>This is the content of the standalone subpage.</p>
+</body>
+</html>
+
+Embedded Subpages (Fragments):
+If the subpage is designed to be included dynamically (e.g., via JavaScript's fetch or AJAX), it does not need a <body> tag because it is not a complete document.
+Instead, the subpage should contain only the relevant HTML snippet, such as a <section> or <div>.
+Example of an embedded subpage fragment:
+<section>
+    <h2>Embedded Subpage Content</h2>
+    <p>This content will be inserted into the main page.</p>
+</section>
